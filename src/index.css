@@ -1,0 +1,10 @@
+body {
+  background-color: #0c0920;
+  color: white;
+}
+
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Poppins;
+}
