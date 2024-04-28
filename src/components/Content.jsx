@@ -97,14 +97,8 @@ export default function Content() {
             </a>
           </div>
           <div>
-            <a
-              href="https://www.udemy.com/certificate/UC-16b5feac-53d1-47c8-85c6-484221ee4f1c/"
-              target="_blank"
-            >
-              <img
-                src="/images/certificate_udemy_js_image.jpg"
-                alt="certificate-image"
-              />
+            <a href="./images/dimploma_moscow.jpg" target="_blank">
+              <img src="/images/dimploma_moscow.jpg" alt="certificate-image" />
             </a>
           </div>
           <div>
@@ -129,34 +123,32 @@ export default function Content() {
         <div className="title-underline"></div>
         <article>
           <Card
-            name="Coding Trivia"
-            description="Quiz-themed website featuring questions about both C# and JavaScript programming languages. Made using HTML, CSS and JavaScript."
-            link="https://github.com/KristiyanHristov04/CodingTrivia"
-            image="/images/coding-trivia-image.png"
-            url="https://codingtrivia2023.netlify.app/"
+            name="CardFight"
+            description="Strategic digital card game challenging players to outsmart AI opponents with dynamic gameplay."
+            link="https://github.com/HHristov22/CardFight"
+            image="/images/CardFight.png"
           />
 
           <Card
-            name="Fitness"
-            description="Landing page made with educational purposes built with HTML, CSS and JS."
-            link="https://github.com/KristiyanHristov04/Fitness-ResponsiveWebsite?tab=readme-ov-file"
-            image="/images/fitness-main.jpg"
-            url="https://fitnesslandingpagebg.netlify.app/"
+            name="MeetMe"
+            description="Calendar with Virtual Rooms for project defense or consultation."
+            link="https://github.com/HHristov22/MeetMe"
+            image="/images/MeetMe.jpg"
           />
 
           <Card
-            name="Car Renting System"
-            description="Web application made with ASP.NET Core MVC. It fully incorporates all CRUD operations."
-            link="https://github.com/KristiyanHristov04/CarRentingSystem-ASP.NET-MVC?tab=readme-ov-file"
-            image="/images/car-renting-system-mvc-image.jpg"
+            name="Portfolio"
+            description="This portfolio is made using HTML, CSS, VanillaJS, Material UI and ReactJS."
+            link="https://github.com/HHristov22/hhristov"
+            image="/images/Portfolio.png"
           />
 
-          <Card
-            name="Weather App"
-            description="Weather Application using OpenWeather API made with Windows Forms (.NET 6.0)."
-            link="https://github.com/KristiyanHristov04/WeatherApp?tab=readme-ov-file"
-            image="/images/weather-app-image.png"
-          />
+          {/* <Card
+            name="CardFight"
+            description="CardFight is an engaging digital card game where players strategically manipulate cards to outsmart AI opponents, offering dynamic gameplay and challenging levels."
+            link="https://github.com/HHristov22/CardFight"
+            image="/images/CardFight.png"
+          /> */}
         </article>
       </section>
 
