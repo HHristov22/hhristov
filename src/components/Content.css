@@ -163,10 +163,19 @@
   animation-timing-function: ease;
 }
 
-/* .education-section article:nth-child(1) div {
-  width: 200px;
-  height: 250px;
-} */
+.education-section article:nth-child(1) div:nth-child(2) {
+  /* width: 200px; */
+  height: 275px;
+  /* 10200x14040 */
+}
+
+.education-section article:nth-child(1) div:nth-child(1),
+.education-section article:nth-child(1) div:nth-child(3) {
+  /* width: 320px; */
+  height: 275px;
+  /* 1600x1190  */
+  /* image resolution issue */
+}
 
 .education-section article:nth-child(1) div img {
   width: 100%;
@@ -193,12 +202,12 @@
 }
 
 .education-section article:nth-child(2) h3 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .projects-section {
   margin-top: 70px;
-  display: none; /*show hide visible*/
+  /* display: none; show hide visible */
 }
 
 .projects-section .section-title,
@@ -224,7 +233,7 @@
 .projects-section article {
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .card {
