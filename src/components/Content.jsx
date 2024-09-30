@@ -149,6 +149,13 @@ export default function Content() {
             link="https://github.com/HHristov22/CardFight"
             image="/images/CardFight.png"
           /> */}
+
+          <Card
+            name="ML examples"
+            description="This repository offers comprehensive code examples and exercises for various machine learning topics."
+            link="https://github.com/HHristov22/ML_Examples"
+            image="/images/ml_examples.png"
+          />
         </article>
       </section>
 
