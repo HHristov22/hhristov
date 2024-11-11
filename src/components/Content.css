@@ -163,6 +163,12 @@
   animation-timing-function: ease;
 }
 
+.education-section article:nth-of-type(2) h2 {
+  animation-name: university-info-animation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+
 .education-section article:nth-child(1) div:nth-child(2) {
   /* width: 200px; */
   height: 275px;
@@ -203,6 +209,10 @@
 
 .education-section article:nth-child(2) h3 {
   font-size: 30px;
+}
+
+.education-section article:nth-child(2) h2 {
+  font-size: 20px;
 }
 
 .projects-section {

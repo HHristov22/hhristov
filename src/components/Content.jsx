@@ -115,6 +115,7 @@ export default function Content() {
         </article>
         <article>
           <h3>Competitions & Certificates</h3>
+          <h2>Find all certifications on my LinkedIn. </h2>
         </article>
       </section>
 
@@ -153,7 +154,7 @@ export default function Content() {
 
           <Card
             name="Portfolio"
-            description="This portfolio is made using HTML, CSS, VanillaJS, Material UI and ReactJS."
+            description="This portfolio is made using ReactJS, VanillaJS and Material UI."
             link="https://github.com/HHristov22/hhristov"
             image="/images/Portfolio.png"
           />
