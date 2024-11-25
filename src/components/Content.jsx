@@ -127,7 +127,7 @@ export default function Content() {
           <Card
             name="AI-Insight"
             description="Automated platform delivering the latest news from the world of AI."
-            link="https://github.com/HHristov22/ai-insight"
+            link="https://ai-insight-ten.vercel.app/"
             image="/images/ai-insight.png"
           />
 
