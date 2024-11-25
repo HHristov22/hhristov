@@ -125,6 +125,13 @@ export default function Content() {
         <article>
 
           <Card
+            name="AI-Insight"
+            description="Automated platform delivering the latest news from the world of AI."
+            link="https://github.com/HHristov22/ai-insight"
+            image="/images/ai-insight.png"
+          />
+
+          <Card
             name="ML examples"
             description="This repository offers comprehensive code examples and exercises for various machine learning topics."
             link="https://github.com/HHristov22/ML_Examples"
